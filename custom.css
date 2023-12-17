@@ -139,6 +139,19 @@
             color: #dfdfdf;
         }
 
+        .nav-item a {
+            transition: transform 0.3s ease-in-out;
+        }
+        
+        .nav-item:hover a {
+            transform: scale(1.1);
+        }
+        .nav-item.active a {
+            color: #f1f1f1;
+            text-decoration: underline; 
+            font-weight: bold; 
+        }
+
 
 
         .animation-container {
